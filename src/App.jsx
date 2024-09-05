@@ -1,9 +1,8 @@
-import Navbar from './components/Navbar'
-
+import Header from '../src/components/navbar/Header';
 function App() {
   return (
     <>
-      <Navbar/>
+      <Header/>
     </>
   )
 }

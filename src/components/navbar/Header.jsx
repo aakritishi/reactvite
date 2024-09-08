@@ -1,4 +1,5 @@
-// import React from 'react'
+import React from 'react'
+import { Outlet, Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -47,7 +48,7 @@ const Header = () => {
 									<li className="nav-item"><a className="nav-link" href="elements.html">Elements</a></li>
 								</ul>
 							</li>
-							<li className="nav-item"><a className="nav-link" href="contact.html">Contact</a></li>
+							<li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
 						</ul>
 						<ul className="nav navbar-nav navbar-right">
 							<li className="nav-item"><a href="#" className="cart"><span className="ti-bag"></span></a></li>
